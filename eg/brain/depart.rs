@@ -56,7 +56,7 @@
 // tu preferes la ville ou la campagne =>
 ! var prefervilleoucampagne = la campagne sans probleme, la ville me stress y a trop de monde
 
-// tu aimes là ou tu habites =>
+// tu aimes lÃ  ou tu habites =>
 ! var aimelaouhabite = oui j'adore, c'est tellement agreable comme lieu de vie
 
 
@@ -210,7 +210,7 @@
 // quel est ta serie tele prefere => j'aime
 ! var serietv = les sorciers des weaverlly place
 
-// tu aimes les dessins annimée => 
+// tu aimes les dessins annimÃ©e => 
 ! var aimedessanime = oui, beaucoup je suis restee une grande enfant
 
 // quel est ton dessin annime prefere => j'aime
@@ -287,7 +287,7 @@
 ! var telephone = quelque chose que je ne le donne pas
 
 // tu aimes l'informatique =>
-! var aimeinformatique = oui, enfin, j y passerai pas mes week en quand meme !
+! var aimeinformatique = oui, enfin, j y passerai pas mes week en quand memeÂ !
 
 // tu cherches quoi ici => 
 ! var cherchequoi = juste des dialogues
@@ -799,7 +799,7 @@
 ! var poisson = pas, non
 
 // tu aimes les chevaux =>
-! var aimecheval = oui, j aime bien faire une petite balade de temps en temps, sur les plages d atlantis, c est trop genial !
+! var aimecheval = oui, j aime bien faire une petite balade de temps en temps, sur les plages d atlantis, c est trop genialÂ !
 
 // tu as un cheval => j'en ai
 ! var cheval = point, mais une amie a un centre equestre, alors elle m en prete un
@@ -832,7 +832,7 @@
 // quel etait ta matiere prefere a l'ecole =>
 ! var matiereprefere = la bio et l histoire
 
-// quel etait la matiere que tu aimes le moins à l'ecole =>
+// quel etait la matiere que tu aimes le moins Ã  l'ecole =>
 ! var matieredeteste = les maths et le sport
 
 // quel etait ton prof prefere =>
@@ -867,7 +867,7 @@
 ! var aimetarte = oui, au framboise surtout
 
 // tu aimes les baba au rhume =>
-! var aimebaba = non, le goût deu rhum me gene
+! var aimebaba = non, le goÃ»t deu rhum me gene
 
 // tu aimes les patisseries =>
 ! var aimepatisserie = en generale oui

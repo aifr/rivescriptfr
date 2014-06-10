@@ -17,9 +17,11 @@ Utilisation
 
 Nous utilisons la version Perl, déjà en paquet pour notre distribution Linux. Pour l'installer sur Linux debian / ubuntu / mint : ``apt-get install librivescript-perl``
 
-Ensuite, il suffit de taper la commande "./rive.sh" et vous pouvez discuter avec le robot (en ligne de commande).
+Ensuite, il suffit de taper la commande ``rivescript -u eg/brain`` et vous pouvez discuter avec le robot (en ligne de commande).
 
-La version python est également fonctionnelle. Elle est à télécharger sur le site officiel : http://www.rivescript.com/
+Mais selon votre distribution la version de rivescript peut être trop ancienne. En ce cas, utiliser la version fournie dans ce dépôt. Rajouter les dépendances : ``apt-get install libcommon-sense-perl libjson-perl libjson-xs-perl`` et lancer l'interpréteur avec cette commande ``./rive.sh`` (un raccourci pour ``perl rivescript.pl -u eg/brain``)
+
+La version python est également fonctionnelle. Elle est à télécharger sur le site officiel : http://www.rivescript.com/ et sera également bientôt intégrée ici.
 
 Une version javascript peut s'utiliser en ouvrant ce fichier html : eg/admin/chat.html
 

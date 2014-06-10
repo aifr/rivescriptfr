@@ -1,1 +1,1 @@
-rivescript -u eg/brain
+perl rivescript.pl -u eg/brain
