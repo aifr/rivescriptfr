@@ -4,7 +4,7 @@
 
 for i in *.txt
 do 
-    echo "" > ../../brain/${i%%.*}.rive
+    printf "// fichier automatiquement généré depuis $i \n\n" > ../../brain/${i%%.*}.rive
     article=`printf "$i\n" | cut  --delimiter='-' -f2 | cut -d'.' -f1`
     obj=`printf "$i\n" | cut -d'-' -f1 | cut -d'.' -f1`
     while read p; do
