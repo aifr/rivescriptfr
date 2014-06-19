@@ -1,0 +1,13 @@
+oiseau
+insecte
+mammifère
+mammifere
+poisson
+reptile
+mollusque
+rongeur
+primate
+marsupial
+vertébré
+homo sapiens
+

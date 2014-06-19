@@ -5,7 +5,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <link rel="stylesheet" type="text/css" href="chat.css">
 <script type="text/javascript" src="jquery-1.7.2.min.js"></script>
-<!--<script type="text/javascript" src="datadumper.js"></script>-->
+<script type="text/javascript" src="datadumper.js"></script>
 <script type="text/javascript" src="../bin/RiveScript.js"></script>
 <script type="text/javascript" src="remplaccent.js"></script> <!-- a ajouter pour la fonction remplacement des accents -->
 </head>
@@ -75,9 +75,17 @@ rs.loadDirectory("brain");
 // entre les crochets attention a ne pas oublier la virgule finale
 rs.loadFile([
 
-	"brain/begin.rs",
-	"brain/depart.rs",
-	"brain/cerveaudebase.rs",
+
+        //"brain/begin.rs",
+        "brain/depart.rs",
+        "brain/cerveaudebase.rs",
+        "brain/quoi.rs",
+        "brain/residence.rs",
+        "brain/salut.rs",
+        "brain/sante.rs",
+        "brain/substitutions.rs",
+        "brain/taille.rs",
+        "brain/yeux.rs",
 
 	], on_load_success, on_load_error);
 // fin insertion fichiers cerveaux
