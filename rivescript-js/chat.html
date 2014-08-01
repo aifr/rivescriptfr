@@ -6,7 +6,7 @@
 <link rel="stylesheet" type="text/css" href="chat.css">
 <script type="text/javascript" src="jquery-1.7.2.min.js"></script>
 <script type="text/javascript" src="datadumper.js"></script>
-<script type="text/javascript" src="../bin/RiveScript.js"></script>
+<script type="text/javascript" src="RiveScript.js"></script>
 <script type="text/javascript" src="remplaccent.js"></script> <!-- a ajouter pour la fonction remplacement des accents -->
 </head>
 <body>
@@ -66,7 +66,7 @@ var rs = new RiveScript({
 });
 
 // This won't work on the web!
-rs.loadDirectory("brain");
+// rs.loadDirectory("brainjs");
 
 
 
@@ -75,17 +75,7 @@ rs.loadDirectory("brain");
 // entre les crochets attention a ne pas oublier la virgule finale
 rs.loadFile([
 
-
-        //"brain/begin.rs",
-        "brain/depart.rs",
-        "brain/cerveaudebase.rs",
-        "brain/quoi.rs",
-        "brain/residence.rs",
-        "brain/salut.rs",
-        "brain/sante.rs",
-        "brain/substitutions.rs",
-        "brain/taille.rs",
-        "brain/yeux.rs",
+	"brainjs/tout.rive",
 
 	], on_load_success, on_load_error);
 // fin insertion fichiers cerveaux

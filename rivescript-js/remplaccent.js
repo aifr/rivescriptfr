@@ -10,8 +10,8 @@ function desaccentuation() {
         newinput = newinput.replace(/[ç]/gi, "c");
         newinput = newinput.replace(/[']/gi, " ");
         newinput = newinput.replace(/[-]/gi, " ");
-        newinput = newinput.replace(/[?]/gi, " ");
-        newinput = newinput.replace(/[!]/gi, " ");
+        //newinput = newinput.replace(/[?]/gi, " ");
+        //newinput = newinput.replace(/[!]/gi, " ");
         newinput = newinput.replace(/[\s]{2,}/g," "); // Enlève les espaces doubles, triples, etc.
         newinput = newinput.trim();
         text = newinput;
